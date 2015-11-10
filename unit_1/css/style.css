@@ -1,9 +1,13 @@
 body{
 	background-color: #B5EFFF;
+	text-align: center;
 }
 h1{
 	color: #01212A;
+	font-weight: normal;
 }
 h2,h3,ul{
 	color: #009FCC;
+	font-family: "Courier New", Arial, sans-serif;
+	font-size:24px;
 }
