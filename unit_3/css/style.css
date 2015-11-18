@@ -1,11 +1,15 @@
 /*Styles are organized first by order of hierarchy, and then by alphabetical order*/
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
 body{
 	background-image: url("images/laptop.jpg");
 	background-size: cover;
 	background-position: 30% 20%;
 	background-color:rgba(0,0,0,.5);
 	color: white;
-	font-family: "trebuchet ms", sans-serif, arial, "century gothic";
+	font-family: 'Questrial', "trebuchet ms", sans-serif, arial, "century gothic";
 	text-align: center;
 	padding-top: 75px;
 	padding-bottom: 75px;
@@ -66,8 +70,12 @@ p{
 }
 
 .description{
-	font-size: 14px;
-	padding-bottom: 20px;
+	font-family: 'bee serif', serif;
+	font-size: 15px;
+	margin: 2em;
+	line-height: 2em;
+	padding-bottom: 15px;
+	
 
 }
 
