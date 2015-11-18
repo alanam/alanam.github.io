@@ -1,3 +1,12 @@
+*, *:before, 
+*:after 
+{     margin: 0;     
+	 padding: 0;     
+	 -moz-box-sizing: border-box;     
+	 -webkit-box-sizing: border-box;     
+	 box-sizing: border-box; 
+}
+
 /*Styles are organized first by order of hierarchy, and then by alphabetical order*/
 @import url(http://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
