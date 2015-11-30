@@ -23,20 +23,23 @@ body{
 	padding-left: 50px;
 	padding-right: 75px;
 }
-header{
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-	text-align: center;
-}
 
 a{
 	text-decoration: none;
 	color: white;
 }
+
 div{
 	background-color: #FFE2b8;
 
+}
+
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
 }
 
 h1{
@@ -70,6 +73,12 @@ hr{
 
 footer{
 	background-color: #FF9575;
+}
+
+img{
+	display: inline-block;
+	margin: auto;
+	padding: 2em 1.5em 2em 0;
 }
 
 p{
