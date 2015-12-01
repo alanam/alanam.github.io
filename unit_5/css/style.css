@@ -14,14 +14,11 @@
 body{
 	background-color:rgba(0,0,0,.8);
 	background-image: url("images/laptop.jpg");	
+	background-attachment: fixed;
 	background-size: cover;
-	color: white;
+	background-repeat: no-repeat;
 	font-family: 'Questrial', "trebuchet ms", arial, sans-serif;
-	font-weight: normal;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	padding-left: 50px;
-	padding-right: 75px;
+	font-weight: 100;
 }
 
 a{
@@ -92,10 +89,7 @@ nav{
 
 ul{
 	list-style: none;
-}
 
-#wrapper{
-	padding: 2em 2em 2em 2em;
 }
 
 #contact{
@@ -113,14 +107,15 @@ ul{
 
 #wrapper{
 	background-color: #FFE2b8;
+	margin: 3em;
+	margin: 3em;
+
 }
 .description{
 	font-size: 18px;
 	margin: 2em;
 	line-height: 1.5em;
-	padding-bottom: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 10px 50px 10px 50px;
 	text-align: justify;
 
 }
