@@ -1,0 +1,134 @@
+*, *:before, 
+*:after 
+{     margin: 0;     
+	 padding: 0;     
+	 -moz-box-sizing: border-box;     
+	 -webkit-box-sizing: border-box;     
+	 box-sizing: border-box; 
+}
+
+/*Styles are organized first by order of hierarchy, and then by alphabetical order*/
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+body{
+	background-color:rgba(0,0,0,.8);
+	background-image: url("images/laptop.jpg");	
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Questrial', "trebuchet ms", arial, sans-serif;
+	font-weight: 100;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+div{
+	background-color: #FFE2b8;
+
+}
+
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	color: #0BBCFF;
+	font-size: 50px;
+}
+
+h2{
+	color: #0BBCFF;
+	font-size: 20px;
+	text-align: left;
+}
+
+h3{
+	color: #818282;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+hr{
+	display: block;
+	border-style: inset;
+    border-width: 1px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer{
+	background-color: #FF9575;
+}
+
+img{
+	display: inline-block;
+	margin: auto;
+	padding: 2em 1.5em 2em 0;
+}
+
+p{
+	text-align: center;
+	font-size: 1.5em;
+}
+nav{
+	background-color: #E8C66A;
+	font-size: 18px;
+}
+
+ul{
+	list-style: none;
+
+}
+
+#contact{
+	font-size:14px;
+	text-align: center;
+
+}
+
+#slogan{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#wrapper{
+	background-color: #FFE2b8;
+	margin: 3em;
+	margin: 3em;
+
+}
+.description{
+	font-size: 18px;
+	margin: 2em;
+	line-height: 1.5em;
+	padding: 10px 50px 10px 50px;
+	text-align: justify;
+
+}
+
+.questrial{
+	font-family: 'Questrial';
+}
+.quicksand{
+	font-family: 'Quicksand';
+}
+.slogan2{
+	background-color: #FFCF00;
+}
+.parts{
+	background-color: #E89C6C;
+}
