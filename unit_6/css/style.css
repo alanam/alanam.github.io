@@ -17,18 +17,23 @@ body{
 	font-family: 'questrial', sans-serif;
 }
 main{
-	padding: 3em;
+	padding-left: 300px;
 }
 
 h1{
-	font-weight: bolder;
+	font-weight: 900px;
 	text-align: center;
+	font-size: 2em;
 }
 
 h2{
 	text-align: center;
+	font-size: 24px;
 }
 
+p{
+	font-size: 18px;
+}
 section#splash{
 	background-image: url("images/laptop.jpg");
 	background-attachment: fixed;
@@ -46,10 +51,12 @@ nav#sidebar{
 	margin:0;
 	padding:0;
 	width:200px;
+
 }
 nav#sidebar a{
 	color: #000000;
 	display:block;
+	font-size: 18px;
 	text-decoration: none;
 	float:left;
 	padding: 2em;
@@ -59,12 +66,19 @@ nav a:hover{
 
 }
 
+section#voice{
+	margin-right:32px;
+}
+
 footer{
 	color: #000000;
 	text-align: center;
 	text-decoration: none;
 }
 
+#brand-guide{
+	padding: 50px;
+}
 
 #title{
 	color: #81D3FF;
@@ -85,11 +99,13 @@ footer{
 	padding:1.5em;
 }
 #about{
-	float: right;
-	padding: 20px;
-	margin: 0 10px;
-	width: 600px;
 	background-color: #aaaaaa;
+	padding: 20px;
+	
+}
+#about p{
+	margin: 30px;
+	padding: 20px;
 
 }
 
@@ -101,17 +117,8 @@ footer{
 .feel{
 	float: left;
 	padding: 20px;
-	margin: 0 10px;
-	width: 300px;
+	width: 44%;
 	background-color: #aaaaaa;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
 
