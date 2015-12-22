@@ -1,0 +1,143 @@
+*, *:before, 
+*:after 
+{     margin: 0;     
+	 padding: 0;     
+	 -moz-box-sizing: border-box;     
+	 -webkit-box-sizing: border-box;     
+	 box-sizing: border-box; 
+}
+/*Styles are organized first by order of hierarchy, and then by alphabetical order*/
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+
+body{
+	background-color: #eeeeee;
+	font-family: 'questrial', sans-serif;
+}
+main{
+	padding-left: 20%;
+}
+
+h1{
+	font-weight: 900px;
+	text-align: center;
+	font-size: 200%;
+}
+
+h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 5%;
+}
+
+p{
+	font-size: 18px;
+}
+section#splash{
+	background-image: url("images/laptop.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	display: block;
+	text-align: center;
+}	
+
+section#splash div{
+	vertical-align: middle;
+	padding: 8em;
+}
+
+nav#sidebar{
+	direction: block;
+	margin:10px;
+	padding:10px;
+	width:200px;
+
+}
+nav#sidebar a{
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+	float:left;
+	padding: 10%;
+}
+nav a:hover{
+	background-color: #aaaaaa;
+
+}
+
+
+footer{
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#title{
+	color: #81D3FF;
+	font-size: 4em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#slogan{
+	color: white;
+	font-size: 2em;
+	font-weight: 900;
+}
+
+#welcome{
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Courgette','Cedarville Cursive', cursive;
+	padding:1.5em;
+}
+
+#brand-guide{
+	padding: 5%;
+	width: 70%;
+	text-align: justify;
+
+}
+
+#about{
+	background-color: #24A6CA; 
+	
+}
+#about p{
+	padding: 5%;
+
+}
+
+#voice-tone{
+	padding-bottom: 5%;
+	width: 80%;
+	text-align: justify;
+}
+
+#voice{
+	padding: 40px 20px 40px 20px;
+} 
+
+
+#style-elements{
+	padding: 5%;
+}
+
+
+#contact a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.feel{
+	float: left;
+	margin: 2%;
+	width: 40%;
+	padding: 3%;
+	background-color: #24A6CA;
+}
+
+
