@@ -57,8 +57,11 @@ section#splash div{
 }
 
 nav#sidebar{
-	width:20%;
 	float:left;
+	width:20%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
 
 }
 nav#sidebar a{
@@ -71,6 +74,7 @@ nav#sidebar a{
 }
 nav a:hover{
 	background-color: #aaaaaa;
+	box-shadow: 4px 7px 13px -5px rgba(0,0,0,0.62);
 
 }
 
@@ -102,7 +106,7 @@ footer{
 }
 
 #brand-guide{
-	padding: 5%;
+	padding: 0% 5% 10% 5%;
 	text-align: justify;
 	width: 75%;
 
@@ -110,27 +114,33 @@ footer{
 
 #about{
 	background-color: #24A6CA; 
+	box-shadow: 2px 7px 18px -1px rgba(0,0,0,0.75);
 	
 }
 #about p{
-	padding: 5%;
+	padding: 0% 5% 5% 5%; 
 
 }
 
 #voice-tone{
-	padding-bottom: 5%;
+	padding: 0% 5% 10% 5%;
 	text-align: justify;
-	width: 85%;
+	width: 78%;
 }
 
 #voice{
+	box-shadow: 2px 7px 18px -1px rgba(0,0,0,0.75);
 	padding: 35px 20px 35px 20px;
 } 
 
+#tone{
+	box-shadow: 2px 7px 18px -1px rgba(0,0,0,0.75);
+}
+
 
 #style-elements{
-	padding: 5%;
-	width: 75%;
+	padding: 0% 5% 10% 5%;
+	width: 80%;
 	text-decoration: none;
 }
 
@@ -176,5 +186,4 @@ footer{
 	font-family: 'Quicksand', sans-serif;
 	text-align: justify;
 }
-
 

@@ -3,6 +3,13 @@
 <head>
 	<title>HallPass Styleguide</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ 	 <script type="text/javascript" src="jquery.sticky.js"></script>
+ 	 <script>
+    	$(window).load(function(){
+     	 $("#sticker").sticky({ topSpacing: 50 });
+    	});
+  	</script>
 </head>
 <body>
 	<section id="splash">
@@ -13,12 +20,13 @@
 		</div>
 	</section>
 <section class="clearfix">
-	<nav id="sidebar" class="clearfix">
+	<nav id="sidebar" id="sticker" class="clearfix">
 			<a href="index.html">Home</a>
 			<a href="#brand-guide">Brand Guide</a>
 			<a href="#voice-tone">Voice and Tone</a>
 			<a href="#style-elements">Style Elements</a>		
 	</nav>
+
 	<main>
 		<section id="brand-guide">
 			<h1>Brand Guide</h1>
