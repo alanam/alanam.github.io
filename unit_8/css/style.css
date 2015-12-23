@@ -17,7 +17,8 @@ body{
 	font-family: 'questrial', sans-serif;
 }
 main{
-	padding-left: 20%;
+	float: right;
+	width: 75%;
 }
 
 h1{
@@ -36,6 +37,12 @@ h2{
 p{
 	font-size: 18px;
 }
+
+ul{
+	display: inline-block;
+	font-size: 20px;
+	list-style-type: none;
+}
 section#splash{
 	background-image: url("images/laptop.jpg");
 	background-attachment: fixed;
@@ -50,9 +57,8 @@ section#splash div{
 }
 
 nav#sidebar{
-	margin:10px;
-	padding:10px;
-	width:200px;
+	width:20%;
+	float:left;
 
 }
 nav#sidebar a{
@@ -97,8 +103,8 @@ footer{
 
 #brand-guide{
 	padding: 5%;
-	width: 70%;
 	text-align: justify;
+	width: 75%;
 
 }
 
@@ -113,17 +119,19 @@ footer{
 
 #voice-tone{
 	padding-bottom: 5%;
-	width: 80%;
 	text-align: justify;
+	width: 85%;
 }
 
 #voice{
-	padding: 40px 20px 40px 20px;
+	padding: 35px 20px 35px 20px;
 } 
 
 
 #style-elements{
 	padding: 5%;
+	width: 75%;
+	text-decoration: none;
 }
 
 
@@ -132,12 +140,24 @@ footer{
 	text-decoration: none;
 }
 
-#voice-tone:after{
+.clearfix:after{
 	content: '';
 	display: block;
 	clear: both;
 }
 
+.logo{
+	width: 90%;
+	padding: 5%;
+}
+.circle{
+	width:20%;
+	margin-left: 4%;
+}
+
+.picture{
+	width:80%;
+}
 
 .feel{
 	float: left;
@@ -145,6 +165,16 @@ footer{
 	width: 40%;
 	padding: 3%;
 	background-color: #24A6CA;
+}
+
+.questrial{
+	font-family: 'Questrial', sans-serif;
+	text-align: justify
+}
+
+.quicksand{
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
 }
 
 
