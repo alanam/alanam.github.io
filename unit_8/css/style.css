@@ -58,10 +58,11 @@ nav#sidebar{
 }
 nav#sidebar a{
 	color: #000000;
+	display: block;
 	font-size: 18px;
 	text-decoration: none;
-	float:left;
 	padding: 10%;
+
 }
 nav a:hover{
 	background-color: #aaaaaa;
@@ -137,6 +138,7 @@ footer{
 	display: block;
 	clear: both;
 }
+
 
 .feel{
 	float: left;
