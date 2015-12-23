@@ -132,6 +132,12 @@ footer{
 	text-decoration: none;
 }
 
+#voice-tone:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
 .feel{
 	float: left;
 	margin: 2%;
