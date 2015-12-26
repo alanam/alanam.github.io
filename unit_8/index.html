@@ -3,9 +3,10 @@
 <head>
 	<title>HallPass Styleguide</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
- 	 <script type="text/javascript" src="jquery.sticky.js"></script>
- 	 <script>
+ 	<script type="text/javascript" src="jquery.sticky.js"></script>
+ 	<script>
     	$(window).load(function(){
      	 $("#sticker").sticky({ topSpacing: 50 });
     	});
@@ -28,7 +29,7 @@
 	</nav>
 
 	<main>
-		<section id="brand-guide">
+		<section id="brand-guide" class="clearfix">
 			<h1>Brand Guide</h1>
 			<section id="about">
 				<h2>Our Story</h2>
@@ -48,7 +49,7 @@
 			</section>
 		</section>
 
-		<section id="style-elements">
+		<section id="style-elements" class="clearfix">
 			<h1>Style Elements</h1>	
 			<section id="elements">
 				<div>
@@ -64,7 +65,7 @@
 				</div>
 				<div>
 					<h2>Fonts</h2>
-					<ul>
+					<ul id="fonts">
 						<li class="questrial">Questrial<br>
 						ABCDEFKGHIJKLMNOPQRSTUVWXYZabcdefghijkl<br>
 						mnopqrstuvwxyz12345678901234567890!@#$%^&*()</li>

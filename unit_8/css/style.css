@@ -15,11 +15,10 @@
 body{
 	color:#000000;
 	background-color: #eeeeee;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: 'questrial', sans-serif;
 }
 main{
-	float: right;
 	width: 90%;
 }
 
@@ -51,6 +50,7 @@ section#splash{
 	background-attachment: fixed;
 	background-size: cover;
 	display: block;
+	font-size: 16px;
 	text-align: center;
 }	
 
@@ -60,11 +60,8 @@ section#splash div{
 }
 
 nav#sidebar{
+	width:20%;
 	float:left;
-	width:15%;
-	position: fixed;
-	top: 0;
-	bottom: 0;
 
 }
 nav#sidebar a{
@@ -82,39 +79,38 @@ nav a:hover{
 
 
 footer{
-	display: block;
 	background-color: #aaaaaa;
 	background-size: cover;
 	text-align: center;
 	text-decoration: none;
-	padding: 5px 0 5px 0;
+	padding: 1px 1px;
 }
-
 
 
 #title{
 	color: #81D3FF;
-	font-size: 4em;
+	font-size: 3.6em;
 	font-family: 'Quicksand', sans-serif;
 }
 
 #slogan{
 	color: white;
-	font-size: 2em;
+	font-size: 1.9em;
 	font-weight: 900;
 }
 
 #welcome{
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-family: 'Courgette','Cedarville Cursive', cursive;
-	padding:1.5em;
+	padding:1em;
 }
 
 #brand-guide{
+	float: right;
 	border-bottom: 2px solid #aaaaaa;
 	margin: auto;
-	padding: 10% 0% 2% 0%;
+	padding: 5% 0% 5% 0%;
 	text-align: justify;
 	width: 70%;
 
@@ -135,8 +131,9 @@ footer{
 
 #voice-tone{
 	border-bottom: 2px solid #aaaaaa;
+	float: right;
 	margin: auto;
-	padding: 10% 0% 2% 0%;
+	padding: 10% 0% 5% 0%;
 	text-align: justify;
 	width: 75%
 }
@@ -153,6 +150,7 @@ footer{
 
 #style-elements{
 	border-bottom: 2px solid #aaaaaa;
+	float: right;
 	padding: 10% 0% 0% 0%;
 	width: 80%;
 	margin: auto;
@@ -167,9 +165,12 @@ footer{
 }
 
 .clearfix:after{
-	content: '';
-	display: block;
-	clear: both;
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 
 .logo{
@@ -193,15 +194,149 @@ footer{
 	background-color: #24A6CA;
 }
 
-.questrial{
-	font-family: 'Questrial', sans-serif;
+#fonts{
 	text-align: justify;
 	padding-left: 20%;
 }
 
+.questrial{
+	font-family: 'Questrial', sans-serif;	
+}
+
 .quicksand{
 	font-family: 'Quicksand', sans-serif;
-	text-align: justify;
-	padding-left: 20%;
+
 }
+@media only screen and (max-width: 960px){
+	#fonts{
+		padding-left: 15%;
+	}
+	#about, #voice, #tone{
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 874px){
+	section#splash{
+		font-size: 16px;
+	}
+
+	#fonts{
+		font-size: 17px;
+	}
+
+@media only screen and (max-width: 798px){
+	body{
+		font-size: 15px;
+	}
+
+	main{
+		width: 100%;
+		margin: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	section#splash{
+		background-size: 10% 100% 10% 100%;
+		font-size: 15px;
+	}
+
+	nav#sidebar{
+		float:none;
+		margin: auto;
+		text-align: center;
+		width: 38%;
+	}
+
+	nav#sidebar a{
+	 	background-color: #aaaaaa;
+	 	font-size: 15px;
+	 	margin: 3%;
+	}
+
+	#brand-guide, #voice-tone, #style-elements{
+		width: 100%;
+	}
+
+	#brand-guide{
+		padding: 2% 0% 5% 0%;
+	}
+
+}
+
+
+@media only screen and (max-width: 724px){
+	body{
+		font-size: 14px;
+	}
+	nav #sidebar a{
+		font-size: 14px;
+	}
+	section#splash{
+		font-size: 14px;
+	}
+	section#splash div{
+		padding: 6em;
+
+	}
+	#fonts{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 648px){
+	}
+	section#splash{
+		font-size: 13px;
+	}	
+}
+@media only screen and (max-width: 633px){
+	section#splash{
+		font-size: 12px;
+	}	
+	section#splash div{
+		padding: 5em;
+	}
+	nav#sidebar a{
+	 	background-color: #aaaaaa;
+	 	font-size: 13px;
+	}
+	#fonts{
+		font-size: 14px;
+		padding-left: 10%;
+	}
+}
+@media only screen and (max-width: 598px){
+	body{
+		font-size: 13px;
+	}
+	section#splash{
+		font-size: 10px;
+	}	
+
+	section#splash div{
+		padding: 3em;
+	}
+	footer{
+		padding:0;
+
+	}
+
+
+@media only screen and (max-width: 426px){
+	body{
+		font-size: 12px;
+	}
+	section#splash{
+		font-size: 9px;
+	}
+	section#splash div{
+		padding: 1em;
+	}
+
+}
+
 
