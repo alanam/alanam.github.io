@@ -5,10 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
- 	<script type="text/javascript" src="jquery.sticky.js"></script>
+ 	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+ 	<script type="text/javascript" src="js/modernizr-custom.js"></script>
  	<script>
     	$(window).load(function(){
-     	 $("#sticker").sticky({ topSpacing: 50 });
+     	 $(".no-touchevents .sticker").sticky({ topSpacing: 50 });
     	});
   	</script>
 </head>
@@ -21,12 +22,14 @@
 		</div>
 	</section>
 <section class="clearfix">
-	<nav id="sidebar" class="sticker" class="clearfix">
-			<a href="index.html">Home</a>
-			<a href="#brand-guide">Brand Guide</a>
-			<a href="#voice-tone">Voice and Tone</a>
-			<a href="#style-elements">Style Elements</a>		
-	</nav>
+	<section id="sidebar">
+		<nav class="sticker" class="clearfix">
+				<a href="index.html">Home</a>
+				<a href="#brand-guide">Brand Guide</a>
+				<a href="#voice-tone">Voice and Tone</a>
+				<a href="#style-elements">Style Elements</a>
+		</nav>
+	</section>
 	<main>
 		<section id="brand-guide" class="clearfix">
 			<h1>Brand Guide</h1>

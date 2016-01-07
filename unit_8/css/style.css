@@ -59,12 +59,12 @@ section#splash div{
 	padding: 8em;
 }
 
-nav#sidebar{
+#sidebar{
 	width:20%;
 	float:left;
 
 }
-nav#sidebar a{
+#sidebar a{
 	color: #000000;
 	display: block;
 	font-size: 18px;
